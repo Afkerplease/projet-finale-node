@@ -6,10 +6,13 @@
     <title>Document</title>
   </head>
   <body>
-    <h1>Name:<%= findUser.first_name %></h1>
-    <h2><%= findUser.last_name %></h2>
-    <h3><%= findUser.email %></h3>
-    <h4><%= findUser.telephone %></h4>
-    <h5><%= findUser.dateDeNaissance %></h5>
+    <h1>
+      <%= findUser.Title %> <%= findUser.first_name %> <%= findUser.last_name %>
+    </h1>
+
+    <h3>Emai: <%= findUser.email %></h3>
+    <h4>Télephone: <%= findUser.telephone %></h4>
+    <h4>Date de naissance: <%= findUser.dateDeNaissance %></h4>
+    <button><a href="/addUser">add user</a></button>
   </body>
 </html>

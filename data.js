@@ -1,6 +1,7 @@
 const utilisateurs = [
   {
     id: 1,
+    Title: "Mr",
     first_name: "Shandee",
     last_name: "Tullot",
     email: "stullot0@seesaa.net",
@@ -9,6 +10,7 @@ const utilisateurs = [
   },
   {
     id: 2,
+    Title: "Mr",
     first_name: "Ingrim",
     last_name: "Linstead",
     email: "ilinstead1@histats.com",
@@ -17,6 +19,7 @@ const utilisateurs = [
   },
   {
     id: 3,
+    Title: "Ms",
     first_name: "Stace",
     last_name: "Keene",
     email: "skeene2@wired.com",
@@ -25,6 +28,7 @@ const utilisateurs = [
   },
   {
     id: 4,
+    Title: "Ms",
     first_name: "Marcela",
     last_name: "Tamlett",
     email: "mtamlett3@wisc.edu",
@@ -33,6 +37,7 @@ const utilisateurs = [
   },
   {
     id: 5,
+    Title: "Mr",
     first_name: "Elton",
     last_name: "Pfeffle",
     email: "epfeffle4@acquirethisname.com",
