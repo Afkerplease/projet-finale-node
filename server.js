@@ -18,7 +18,7 @@ app.get("/user/:userId", (req, res) => {
   const { userId } = req.params;
   const findUser = users.find((u) => u.id === +userId);
   if (!findUser) return res.status(404).send("product doesn not exist");
-  res.json(findUser);
+  res.render("userPage", { findUser });
 });
 
 app.listen(port, () => {
